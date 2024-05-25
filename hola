@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciencia de Datos - Python y Pandas</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #222;
+        }
+        h1, h2 {
+            color: #1e90ff;
+        }
+        h1 + p {
+            margin-top: -10px;
+            font-size: 1.2em;
+            color: #ccc;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ciencia de Datos - Python y Pandas</h1>
+        <p>Eter Suart Orta</p>
+    </header>
+
+    <section>
+        <h2>CIENCIA DE DATOS</h2>
+        <h3>¿Qué es ciencia de datos?</h3>
+        <p>La ciencia de datos es un campo interdisciplinario que utiliza métodos, procesos, algoritmos y sistemas científicos para extraer conocimiento y entendimiento de datos en diversas formas, tanto estructurados como no estructurados. Es una continuación de algunas de las áreas de análisis de datos como la estadística, minería de datos y aprendizaje automático.</p>
+        
+        <h3>¿Por qué utilizar Python en ciencia de datos?</h3>
+        <p>Python es uno de los lenguajes de programación más utilizados en ciencia de datos debido a su simplicidad y versatilidad. Cuenta con una gran cantidad de bibliotecas específicas para ciencia de datos, como NumPy, Pandas, Matplotlib y Scikit-learn, que facilitan el análisis y visualización de datos, así como la implementación de algoritmos de aprendizaje automático.</p>
+    </section>
+
+    <section>
+        <h2>PANDAS</h2>
+        <h3>¿Qué es Pandas?</h3>
+        <p>Pandas es una biblioteca de software escrita para el lenguaje de programación Python para manipulación y análisis de datos. En particular, ofrece estructuras de datos y operaciones para manipular tablas numéricas y series temporales.</p>
+
+        <h3>¿Cómo funciona?</h3>
+        <p>Pandas proporciona dos estructuras de datos principales: Series (una columna) y DataFrame (una tabla de datos). Estas estructuras permiten la manipulación de datos de manera eficiente, incluyendo operaciones como filtrado, agregación y transformación.</p>
+
+        <h3>Ventajas</h3>
+        <ul>
+            <li>Fácil de usar y entender.</li>
+            <li>Optimizado para el rendimiento.</li>
+            <li>Amplia comunidad y documentación.</li>
+            <li>Integración con otras bibliotecas de Python.</li>
+        </ul>
+
+        <h3>Cómo utilizan Pandas los científicos de datos</h3>
+        <p>Los científicos de datos utilizan Pandas para cargar, limpiar, transformar y analizar datos. Es comúnmente utilizado para preparar los datos antes de aplicar modelos de aprendizaje automático, así como para la exploración inicial de datos y generación de informes.</p>
+
+        <h3>¿Qué otras alternativas existen similares a Pandas?</h3>
+        <p>Algunas alternativas a Pandas incluyen:</p>
+        <ul>
+            <li>Dask: Permite trabajar con datos más grandes que la memoria.</li>
+            <li>Vaex: Optimizado para la visualización y el análisis de grandes volúmenes de datos.</li>
+            <li>Polars: Una biblioteca de procesamiento de datos en Rust que es compatible con Python.</li>
+        </ul>
+    </section>
+</body>
+</html>

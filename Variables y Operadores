@@ -1,0 +1,18 @@
+# 1. Crear una variable para almacenar el nombre de un estudiante y mostrarlo en pantalla.
+nombre_estudiante = "Eter Suart"
+print("El nombre del estudiante es:", nombre_estudiante)
+
+# 2. Calcular el área de un triángulo usando variables para la base y la altura.
+base = 10.0  # Puedes cambiar este valor
+altura = 15.0  # Puedes cambiar este valor
+area_triangulo = (base * altura) / 2
+print("El área del triángulo es:", area_triangulo)
+
+# 3. Crear una variable que almacene la edad de un usuario y mostrar un mensaje de saludo diferente si es mayor o menor de 18 años.
+edad = 17  # Puedes cambiar este valor
+
+if edad >= 18:
+    print("Hola,", nombre_estudiante, ". Eres mayor de edad.")
+else:
+    print("Hola,", nombre_estudiante, ". Eres menor de edad.")
+    
